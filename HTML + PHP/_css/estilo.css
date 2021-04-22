@@ -19,7 +19,6 @@ div::before {
     left: -10px;
     width: 560px;
 }
-
 div {
     background-color: rgba(255,255,255,.8);
     margin: 100px auto 100px auto;
