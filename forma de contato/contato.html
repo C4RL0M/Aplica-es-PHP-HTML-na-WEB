@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Fale-conosco</title>
+</head>
+<body>
+<section>
+    <form name="formulario" method="post" action="envia-mensagem.php">
+        <h1>Fale-conosco</h1>
+        <p><label for="nome">Nome</label> <input type="text" name="nome" id="nome" maxlength="30" required/></p>
+        <p><label for="email">Email</label> <input type="email" name="email" id="email" maxlength="40" required/></p>
+        <p><label for="tel">Telefone</label> <input type="tel" name="tel" id="tel" maxlength="11" required/></p>
+        <p><label for="assunto">Assunto</label> <input type="text" name="assunto" id="assunto" maxlength="50" required/>
+        </p>
+        <p><label for="mensagem">Mensagem</label> <textarea cols="30" rows="5" name="mensagem" id="mensagem" required></textarea>
+        </p>
+        <p><input type="button" onclick="window.open('index.html', '_self')" value="Voltar"/> <input name="submit"
+                                                                                                     type="submit"
+                                                                                                     value="Enviar"/>
+        </p>
+    </form>
+</section>
+</body>
+</html>
