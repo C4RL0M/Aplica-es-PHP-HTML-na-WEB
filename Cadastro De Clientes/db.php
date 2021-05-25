@@ -7,4 +7,3 @@
 
 	mysql_select_db($banco) or die(mysql_error());
 ?>
-
